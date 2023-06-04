@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 // Home
 import Home from "./Home";
@@ -33,7 +33,7 @@ import FormTicket from './components/atividade05/FormTicket';
 const MinhasRotas = () => {
     return (
         <BrowserRouter>
-            <Route>   
+            <Routes>   
                 // Home
                 <Route path="/" element={<Home />} />
 
@@ -63,7 +63,7 @@ const MinhasRotas = () => {
                 <Route path="/FormQuiz" element={<FormQuiz />} />
                 <Route path="/FormTicket" element={<FormTicket />} />
 
-            </Route>
+            </Routes>
         </BrowserRouter>
     );
 }
