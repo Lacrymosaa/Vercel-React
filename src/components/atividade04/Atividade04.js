@@ -7,10 +7,10 @@ export default function Atividade04 () {
             <nav>
                 <ul>
                     <li>
-                        <Link to='/toolbar'>Toolbar</Link>
+                        <Link to='/Toolbar'>Toolbar</Link>
                     </li>
                     <li>
-                        <Link to='/counterlist'>Counter List</Link>
+                        <Link to='/CounterList'>Counter List</Link>
                     </li>
                     <li>
                         <Link to='/'>Voltar</Link>

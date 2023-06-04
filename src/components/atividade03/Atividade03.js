@@ -12,10 +12,10 @@ export default function Atividade03 () {
                         <h1>Atividade 03</h1>
                     </li>
                     <li>
-                        <Link to='/gallery'>Gallery</Link>
+                        <Link to='/Gallery'>Gallery</Link>
                     </li>
                     <li>
-                        <Link to='/todolist'>ToDo List</Link>
+                        <Link to='/TodoList'>ToDo List</Link>
                     </li>
                     <li>
                         <Link to='/'>Voltar</Link>

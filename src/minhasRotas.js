@@ -1,6 +1,5 @@
-
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom'
+import { BrowserRouter, Route } from 'react-router-dom';
 
 // Home
 import Home from "./Home";
@@ -34,37 +33,37 @@ import FormTicket from './components/atividade05/FormTicket';
 const MinhasRotas = () => {
     return (
         <BrowserRouter>
-            <Routes>   
+            <Route>   
                 // Home
                 <Route path="/" element={<Home />} />
 
                 // Atividade 01
-                <Route path="/atividade01" element={<Atividade01 />} />
-                <Route path="/relogio" element={<Relogio />} />
-                <Route path="/frase" element={<Frase />} />
+                <Route path="/Atividade01" element={<Atividade01 />} />
+                <Route path="/Relogio" element={<Relogio />} />
+                <Route path="/Frase" element={<Frase />} />
 
                 // Atividade 02
-                <Route path="/atividade02" element={<Atividade02 />} />
-                <Route path="/contador" element={<Contador />} />
+                <Route path="/Atividade02" element={<Atividade02 />} />
+                <Route path="/Contador" element={<Contador />} />
 
                 // Atividade 03
-                <Route path="/atividade03" element={<Atividade03 />} />
-                <Route path="/gallery" element={<Gallery />} />
-                <Route path="/todolist" element={<TodoList />} />
+                <Route path="/Atividade03" element={<Atividade03 />} />
+                <Route path="/Gallery" element={<Gallery />} />
+                <Route path="/TodoList" element={<TodoList />} />
 
                 // Atividade 04
-                <Route path="/atividade04" element={<Atividade04 />} />
-                <Route path="/toolbar" element={<Toolbar />} />
-                <Route path="/counterlist" element={<CounterList />} />
+                <Route path="/Atividade04" element={<Atividade04 />} />
+                <Route path="/Toolbar" element={<Toolbar />} />
+                <Route path="/CounterList" element={<CounterList />} />
 
                 // Atividade 05
-                <Route path="/atividade05" element={<Atividade05 />} />
-                <Route path="/accordion" element={<Accordion />} />
-                <Route path="/messenger" element={<Messenger />} />
-                <Route path="/formquiz" element={<FormQuiz />} />
-                <Route path="/formticket" element={<FormTicket />} />
+                <Route path="/Atividade05" element={<Atividade05 />} />
+                <Route path="/Accordion" element={<Accordion />} />
+                <Route path="/Messenger" element={<Messenger />} />
+                <Route path="/FormQuiz" element={<FormQuiz />} />
+                <Route path="/FormTicket" element={<FormTicket />} />
 
-            </Routes>
+            </Route>
         </BrowserRouter>
     );
 }

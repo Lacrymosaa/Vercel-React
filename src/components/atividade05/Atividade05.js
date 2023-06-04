@@ -12,16 +12,16 @@ export default function Atividade05 () {
                         <h1>Atividade 05</h1>
                     </li>
                     <li>
-                        <Link to='/accordion'>Accordion</Link>
+                        <Link to='/Accordion'>Accordion</Link>
                     </li>
                     <li>
-                        <Link to='/messenger'>Messenger</Link>
+                        <Link to='/Messenger'>Messenger</Link>
                     </li>
                     <li>
-                        <Link to='/formquiz'>Form Quiz</Link>
+                        <Link to='/FormQuiz'>Form Quiz</Link>
                     </li>
                     <li>
-                        <Link to='/formticket'>Form Ticket</Link>
+                        <Link to='/FormTicket'>Form Ticket</Link>
                     </li>
                     <li>
                         <Link to='/'>Voltar</Link>
