@@ -24,6 +24,9 @@ export default function Home () {
                     <li>
                         <Link to='/atividade05'>Atividade 05</Link>
                     </li>
+                    <li>
+                        <a href='https://github.com/DiabolicWitch/Vercel-React' target='_blank'>Git</a>
+                    </li>
                 </ul>
             </nav>
         </div>
